@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 100px;
+  font-size: large;
+  transition: background-color 500ms ease-out;
+}
+h1 {
+  background-color: white;
+  border: 2px ridge black;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px;
+  margin: 10px auto;
+  width: 500px;
+  padding: 5px;
+}
+h1:hover {
+  color: white;
+  background-color: rgb(20, 20, 20);
+  border-color: white;
+  box-shadow: 1px 1px 4px;
+  transition: 1500ms;
+}
+#box {
+  margin: auto;
+  background-color: white;
+  border: 1px inset;
+  box-shadow: 4px 4px 5px;
+  padding: 10px;
+  width: 600px;
+}
+img {
+  border-radius: 10px;
+  margin: 25px;
+}
+img:hover {
+  transform: scale(1.05);
+  transition: 10s;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--um link referenciando um arquivo do bootstrap.css instalado localmente-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Formulário</h1>
+    <form>
+      <p>
+        Nome:
+        <input
+          type="text"
+          name="nome"
+          id="txtnome"
+          placeholder="digite seu nome"
+        />
+        Sobrenome:
+        <input
+          type="text"
+          name="sobrenome"
+          id="txtsobre"
+          placeholder="digite seu sobrenome"
+        />
+        <input type="button" value="Enviar" onclick="exibir()" />
+      </p>
+    </form>
+
+    <script src="js/bootstrap.min.js"></script>
+    <!--um script referenciando um arquivo do bootstrap.js instalado localmente-->
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--Referenciar o tipo de pagina é importante em documentos HTML, para expecificar corretamente e evitar erros na exibição da Pagina -->
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cabeçalho</title>
+  </head>
+  <body>
+    <h1>Titulo</h1>
+    <center></center>
+    <!--Tags com a cor vermelha são tags 
+    que deixaram de funcionar nas proximas versões do HTML: HTML-6 e posteriores-->
+
+    <input type="button" value="Vermelho" onclick="btVermelho()" />
+    <input type="button" value="Azul" onclick="btAzul()" />
+    <input type="button" value="Verde" onclick="btVerde()" />
+    <!--Script Externo:-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
+<!--
+    <Script> acima é um <script> interno:
+       <script>
+      function btVermelho() {
+        document.body.style.backgroundColor = "red";
+        document.body.style.color = "white";
+      }
+
+      function btAzul() {
+        document.body.style.backgroundColor = "blue";
+        document.body.style.color = "white";
+      }
+
+      function btVerde() {
+        document.body.style.backgroundColor = "green";
+        document.body.style.color = "white";
+      }
+    </script>
+    -->

@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  font-size: large;
+  margin: 10px;
+  text-align: center;
+  transition: background-color 500ms ease-in;
+}
+img {
+  border-radius: 4px;
+  margin: 25px;
+}
+#container {
+  margin: 50px auto;
+  width: 800px;
+  padding: 20px;
+  background-color: white;
+  border: 1px double black;
+  border-radius: 10px;
+}
+input{
+  text-align: center;
+}

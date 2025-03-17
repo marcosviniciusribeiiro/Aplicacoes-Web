@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <form>
+        <h1>Imagem da Pagina</h1>
+        <img src="img/logo1.jpg" id="imagem" />
+
+        <p>Imagem <input type="text" id="inputImagem" onchange="alterarImg()"/></p>
+        <p>Cor de Fundo: <input type="color" id="corFundo" onchange="alterarCor()"/></p>
+        <input type="button" value="Alterar" onclick="alterar()" />
+      </form>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

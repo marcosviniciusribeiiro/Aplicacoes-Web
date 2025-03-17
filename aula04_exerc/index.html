@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Exercício</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+  <body>
+    <h1>Titulo da Página</h1>
+    <a  href="https://www.youtube.com/watch?v=0jNvJU52LvU" target="_blank">
+      <img src="img/logo1.jpg" id="logo" />
+    </a>
+    <div id="box">
+      <form>
+        <p>
+          Cor de Fundo:
+          <input type="text" id="fcor" onchange="alterar_cor('fcor')" />
+        </p>
+        <p>
+          Imagem:
+          <input
+            type="search"
+            id="link_img"
+            onchange="mudar_img('link_img', 'logo')"
+          />
+        </p>
+      </form>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
