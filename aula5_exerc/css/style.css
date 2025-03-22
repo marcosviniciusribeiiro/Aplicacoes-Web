@@ -4,11 +4,7 @@ body {
   transition: background-color 500ms ease-in-out;
 }
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h4{
   margin: 15px auto;
   color: rgb(1, 75, 1);
   background-color: white;
