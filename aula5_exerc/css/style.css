@@ -1,10 +1,10 @@
 body {
   background-color: rgb(0, 255, 136);
   text-align: center;
-  transition: background-color 500ms ease-in-out;
+  padding: 10px;
 }
 h1,
-h4{
+h4 {
   margin: 15px auto;
   color: rgb(1, 75, 1);
   background-color: white;
@@ -13,22 +13,33 @@ h4{
 .titulo1 {
   border: 2px outset black;
   width: 450px;
-  padding: 10px;
   border-radius: 4px;
 }
 
-#container{
-    margin: auto;
-    width: 600px;
-    padding-bottom: 20px;
-    border: 1px inset black;
-    border-radius: 8px;
-    box-shadow: 3px 4px 6px;
-    background-color: white;
+#container {
+  margin: auto;
+  width: 600px;
+  padding-bottom: 20px;
+  border: 1px inset black;
+  border-radius: 8px;
+  box-shadow: 3px 4px 6px;
+  background-color: white;
 }
-#res{
-    text-align: left;
+#res {
+    border-radius: 40px;
+  background-color: rgb(1, 75, 1);
+  color: white;
+  width: 300px;
+  height: 40px;
+  margin: 10px auto;
+  padding: 5px;
 }
-input{
-    text-align: center;
+#cpf {
+  text-align: center;
+}
+#btn,
+#limpa {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  margin: 10px;
 }
