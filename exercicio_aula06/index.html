@@ -8,12 +8,17 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Titulo:</h1>
+    <h1>Sequência de Fibonacci:</h1>
     <div id="container">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, rerum,
-        quibusdam sint amet officia id libero omnis vitae neque ipsa officiis
-        itaque soluta similique explicabo illum animi fuga magnam repellendus?
+        <label for="number">
+          <h3>Cálculo Fibonacci de:</h3> 
+        </label>
+        <input type="number" name="num" id="num" />
+      </p>
+      <input type="button" value="enviar" onclick="Calcular()" />
+      <p id="res">
+        <h4>Resultado:</h4>
       </p>
     </div>
     <script src="js/bootstrap.min.js"></script>

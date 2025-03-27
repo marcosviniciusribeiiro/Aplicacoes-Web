@@ -1,17 +1,23 @@
-body {
-  font-size: large;
+body{
+  margin: 50px;
   text-align: center;
+  background-color: rgba(61, 187, 145, 0.45);
+  color: rgb(0, 12, 36); 
   transition: background-color 500ms ease-in;
+
 }
 #container {
-  margin: 50px auto;
-  width: 600px;
-  padding: 20px;
   background-color: white;
-  border: 1px double black;
+  color: black;
+  border: 1px inset black;
   border-radius: 10px;
   box-shadow: 2px 3px 6px;
+  width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+
 }
-input {
+
+input{
   text-align: center;
 }
