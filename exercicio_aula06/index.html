@@ -12,14 +12,19 @@
     <div id="container">
       <p>
         <label for="number">
-          <h3>Cálculo Fibonacci de:</h3> 
-        </label>
-        <input type="number" name="num" id="num" />
+          <h3>Calculo do Fibonacci:</h3>
+        </label> <br>
+        <input
+          type="number"
+          name="num"
+          id="fnum"
+          placeholder="Digite um Número"
+        />
       </p>
-      <input type="button" value="enviar" onclick="Calcular()" />
-      <p id="res">
-        <h4>Resultado:</h4>
+      <p>
+        <input type="button" value="calcular" id="btn" />
       </p>
+        <h5 id="res"></h5>
     </div>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>

@@ -1,8 +1,8 @@
 body{
   margin: 50px;
   text-align: center;
-  background-color: rgba(61, 187, 145, 0.45);
-  color: rgb(0, 12, 36); 
+  background-color: rgba(6, 134, 185, 0.938);
+  color: rgb(255, 255, 255); 
   transition: background-color 500ms ease-in;
 
 }
@@ -17,7 +17,10 @@ body{
   padding: 25px;
 
 }
-
+#res{
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 input{
   text-align: center;
 }
