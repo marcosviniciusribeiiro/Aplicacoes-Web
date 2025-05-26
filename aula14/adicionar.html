@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adicionar Tarefas</title>
+    <style>
+      input {
+        margin: 10px;
+      }
+      button {
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <input id="tarefa" placeholder="Digite uma tarefa" />
+    <input id="data" placeholder="digite uma data" />
+    <input id="hora" placeholder="digite um horario" />
+    <br />
+    <button onclick="adicionar(tarefa.value, data.value, hora.value)">Adicionar</button>
+    <button onclick="irParaVisualizar()">Ver Tarefas</button>
+
+    <script src="js/adicionar.js"></script>
+  </body>
+</html>
