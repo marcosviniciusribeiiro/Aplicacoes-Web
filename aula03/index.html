@@ -10,26 +10,6 @@
   <body>
     <h1>Formulário 1</h1>
     <form>
-      Número 1: <input type="number" id="num1" placeholder="Digite um número" />
-      <br />
-      Número 2: <input type="number" id="num2" placeholder="Digite um número" />
-      <input type="button" value="Somar" onclick="exibir()" />
-      <br />
-      Resultado:
-      <p id="resultado1"></p>
-    </form>
-    <h1>Formulário 2</h1>
-    <form>
-      Número 1: <input type="number" id="num3" placeholder="Digite um número" />
-      <br />
-      Número 2: <input type="number" id="num4" placeholder="Digite um número" />
-      <input type="button" value="Somar" onclick="somarInputHTML(num3,num4)" />
-      <br />
-      Resultado:
-      <input type="text" id="resultado2" disabled="true" value="100" />
-    </form>
-    <h1>Formulário 3</h1>
-    <form>
       Número 1: <input type="number" id="num5" placeholder="Digite um número" />
       <br />
       Número 2: <input type="number" id="num6" placeholder="Digite um número" />
@@ -38,7 +18,29 @@
         value="Somar"
         onclick="somar(num5.value,num6.value)"
       />
+    </form>
+    <hr />
+
+    <h1>Formulário 2</h1>
+    <form>
+      Número 1: <input type="number" id="num1" placeholder="Digite um número" />
       <br />
+      Número 2: <input type="number" id="num2" placeholder="Digite um número" />
+      <input type="button" value="Somar" onclick="exibir()" />
+      <br />
+      Resultado:
+      <p id="resultado1"></p>
+    </form>
+    <hr />
+    <h1>Formulário 3</h1>
+    <form>
+      Número 1: <input type="number" id="num3" placeholder="Digite um número" />
+      <br />
+      Número 2: <input type="number" id="num4" placeholder="Digite um número" />
+      <input type="button" value="Somar" onclick="somarInputHTML(num3,num4)" />
+      <br />
+      Resultado:
+      <input type="text" id="resultado2" disabled="true" />
     </form>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
