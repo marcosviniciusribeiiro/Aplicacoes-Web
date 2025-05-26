@@ -1,5 +1,5 @@
 function adicionar(nome, data, hora) {
-   if (!texto || !data || !hora) return;
+  if (!nome || !data || !hora) return;
 
   let tarefas = JSON.parse(localStorage.getItem("tarefas")) || [];
   let tarefa = {
@@ -7,7 +7,7 @@ function adicionar(nome, data, hora) {
     data: data,
     hora: hora
   };
-   tarefas.push(tarefa);
+  tarefas.push(tarefa);
   localStorage.setItem("tarefas", JSON.stringify(tarefas));
   document.getElementById("tarefa").value = "";
 }
