@@ -26,7 +26,7 @@ function novaTarefa() {
 
 function iniciar() {
   if (!JSON.parse(localStorage.getItem("tarefas"))) {
-    //criarTarefas();
+    criarTarefas();
   }
   carregarTarefa();
 }
