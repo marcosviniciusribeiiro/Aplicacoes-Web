@@ -6,7 +6,7 @@ function fatorialFor(num) {
 }
 
 function inicio(num) {
-  alert("Resultado: " + fatorial(num));
+  alert(`O fatorial de ${num} é igual a ${fatorial(num)}`);
 }
 
 function fatorial(num) {
