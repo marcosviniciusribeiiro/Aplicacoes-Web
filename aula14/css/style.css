@@ -6,19 +6,111 @@ input {
 body {
   background-color: rgba(255, 255, 255, 0.72);
 }
-#container {
-  text-align: center;
-  margin: 20px auto;
-  width: 700px;
+button {
+  width: 120px;
+  margin: 5px;
+}
+li {
+  list-style: none;
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: #0000001a;
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em #0000001a, inset 0 0.125em 0.5em #00000026;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+/*botão azul*/
+button.btn.btn-primary {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 12px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  height: auto;
+}
+button.btn.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Container centralizado para o formulário */
+.form-container {
+  max-width: 900px;
+  margin: 50px auto;
   padding: 20px;
-  border-radius: 4px;
-  background-color: white;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.303);
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
-button{ 
-    width: 120px;
-    height: 30px;
+
+/* Inputs alinhados responsivamente */
+.form-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
 }
-li{
-    list-style: none;
+
+.form-inputs input {
+  flex: 1 1 200px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  min-width: 180px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Botão verde */
+button.btn.btn-success {
+  background-color: #28a745;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 12px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  height: auto;
+  border: none;
+  cursor: pointer;
+}
+
+button.btn.btn-success:hover {
+  background-color: #1e7e34;
+}
+.iniciar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/*botão laranja */
+.btn-iniciar {
+  background-color: #ff5733;
+  color: white;
+  padding: 16px 32px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-iniciar:hover {
+  background-color: #e04e2e;
 }
