@@ -1,37 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adicionar Tarefas</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" /> 
     <link rel="stylesheet" href="css/style.css" />
-    <style>
-      button {
-        margin: 5px;
-      }
-    </style>
   </head>
   <body>
-    <div id="container">
-      <h2>Registre uma Nova Tarefa</h2>
+    <main class="form-container">
+      <h1>Registre uma nova tarefa</h1>
 
-      <input id="tarefa" type="text" placeholder="Digite uma tarefa..." />
-      <input
-        id="usuario"
-        type="text"
-        placeholder="Digite o nome do usuário..."
-      />
-      <input id="data" type="date" />
-      <input id="hora" type="time" />
-      <br />
-      <button
-        onclick="adicionar(tarefa.value, usuario.value, data.value, hora.value)"
-      >
-        Adicionar
-      </button>
-      <button onclick="irParaVisualizar()">Ver Tarefas</button>
-    </div>
+      <div class="form-inputs">
+        <input id="tarefa" type="text" placeholder="Digite uma tarefa..." />
+        <input
+          id="usuario"
+          type="text"
+          placeholder="Quem realizará a tarefa..."
+        />
+        <input id="data" type="date" />
+        <input id="hora" type="time" />
+      </div>
 
-    <script src="js/adicionar.js"></script>
+      <div class="form-buttons">
+        <button
+          class="btn btn-primary"
+          onclick="adicionar(tarefa.value, usuario.value, data.value, hora.value)"
+        >
+          Adicionar
+        </button>
+        <button class="btn btn-success" onclick="irParaVisualizar()">
+          Ver Tarefas
+        </button>
+      </div>
+    </main>
+
+    <script src="js/aplicacao.js"></script>
   </body>
 </html>
