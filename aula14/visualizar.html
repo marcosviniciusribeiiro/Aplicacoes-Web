@@ -4,10 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Listar Tarefas</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <ul id="lista"></ul>
-    <button onclick="novaTarefa()">Nova Tarefa</button>
+    <div
+      class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center"
+    >
+      <div class="list-group">
+        <ul id="lista"></ul>
+      </div>
+      <button onclick="novaTarefa()">Nova Tarefa</button>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/visualizar.js"></script>
   </body>
 </html>
