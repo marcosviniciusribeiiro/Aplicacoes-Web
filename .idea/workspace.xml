@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fc9e632-43b1-471b-9fce-2e6ff1402c42" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/aula14/adicionar.html" beforeDir="false" afterPath="$PROJECT_DIR$/aula14/adicionar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula14/visualizar.html" beforeDir="false" afterPath="$PROJECT_DIR$/aula14/visualizar.html" afterDir="false" />
-    </list>
+    <list default="true" id="4fc9e632-43b1-471b-9fce-2e6ff1402c42" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
