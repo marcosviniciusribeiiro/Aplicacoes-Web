@@ -1,23 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br" data-bs-theme="auto">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Listar Tarefas</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div
-      class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center"
-    >
-      <div class="list-group">
-        <ul id="lista"></ul>
+    <div class="container my-4">
+      <h1 class="text-center mb-4">Tarefas Registradas:</h1>
+      <div class="b-example-divider mb-4"></div>
+
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8">
+          <div class="list-group" id="lista"></div>  <!--aqui onde será armazenado as tarefas-->
+        </div>
       </div>
-      <button onclick="novaTarefa()">Nova Tarefa</button>
+
+      <div class="row mt-4">
+        <div class="col-12 d-flex justify-content-center">
+          <button onclick="novaTarefa()" class="btn btn-primary">
+            + Tarefas
+          </button>
+        </div>
+      </div>
     </div>
 
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/visualizar.js"></script>
+    <script src="js/aplicacao.js"></script>
   </body>
 </html>
